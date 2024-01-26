@@ -6,7 +6,7 @@ interface PreviewProps {
 }
 
 const html = `<html>
-    <head></head>
+    <head><style>html {background-color: white;}</head>
     <body>
       <div id='root'></div>
       <script>
